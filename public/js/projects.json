@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Network Management System",
+      "description": "BEL NMS is an integrated management application with configurable components, developed indigenously, to meet the specific requirements of Static and Tactical Networks. It supports FCAPS functionality for any kind of network to be managed. NMS components are customizable to manage, configure and monitor networks consisting of IP and Non-IP devices. It offers a common platform to troubleshoot network problems, command & control support to the higher echelons.",
+      "image": "images/Network-management-system.jpg",
+      "status": "In Progress",
+      "links": "https://bel-india.in/software/software-products/network-management-system-product/"
+    },
+    {
+      "id": 2,
+      "name": "AI Based Predictive Maintainance",
+      "description": "Predictive Maintenance applications are gaining traction over the traditional preventive maintenance in high availability mission critical systems. BEL has indigenously manufactured many systems/ sub-systems/ components for the Fire Control System, deployed in various ships of the Indian Navy which are to be maintained for a period of over 10 to 15 years. The Predictive Maintenance for Fire Control Systems was taken up to incorporate Artificial Intelligence (AI) in defence applications to aid the operator in quick decision making and the solution is deployed in one of the naval ships",
+      "image": "images/AI-Based-Predictive-Maintenance.jpg",
+      "status": "Completed",
+      "links": "https://bel-india.in/software/software-products/ai-based-predictive-maintenance-product/"
+    },
+    {
+      "id": 3,
+      "name": "AI Enabled Voice Analysis Software",
+      "description": "Understanding voice data intercepted by intelligence agencies is a huge challenge due to very high level of disturbances in voice channels.",
+      "image": "images/ai-enabled-voice-analysis softwar.jpg",
+      "status": "In Progress",
+      "links": "https://bel-india.in/software/software-products/ai-enabled-voice-analysis-software-product/"
+    },
+    {
+      "id": 4,
+      "name": "Air Defence Simulation and Evaluation System",
+      "description": "Air Defence Simulation and Evaluation System (ADSES) is intended to provide a unified platform for Modelling and Simulation of the entire",
+      "image": "/images/air-defence-simulation-and-evaluation-system1-768x458.jpg",
+      "status": "Planned",
+      "links": "https://bel-india.in/software/software-products/air-defence-simulation-and-evaluation-system-product/"
+    },
+    {
+      "id": 5,
+      "name": "SecureDoc",
+      "description": "SecureDoc is a blockchain platform using which any document issuer (Eg: Governments, Corporates, Universities, Financial Institutes, Medical Labs, Quality Control Agencies, etc.) can issue tamper-proof digital documents to their stakeholders that can be verified from anywhere around the world, within a matter of 10 seconds!",
+      "image": "images/blockchain.jpeg",
+      "status": "Completed",
+      "links": "https://bel-india.in/software/software-products/blockchain-based-solutions-product/"
+    },
+    {
+      "id": 6,
+      "name": "Health Management Information System",
+      "description": "BEL Health Management Information System (HMIS) is a revolutionary and fully Integrated Platform that provides end-to-end features for simplifying hospital management.  BHIS is cloud based scalable and high performance solution to cater all healthcare facilities from small to multi-chain infrastructure.",
+      "image": "images/Health-management-information-system-768x432.jpeg",
+      "status": "Completed",
+      "links": "https://bel-india.in/software/software-products/health-management-information-system-product/"
+    },
+    {
+      "id": 7,
+      "name": "Software eGovernance Solutions",
+      "description": "BEL eGovernance Solution aims to improve citizen centric services offered by ULBs while making ULB employees better equipped, informed and responsive to public needs with transparency and in an effective manner.",
+      "image": "images/e-government-768x576.jpg",
+      "status": "Completed",
+      "links": "https://bel-india.in/software/software-products/software-egovernance-solutions-product/"
+    },
+    {
+      "id": 8,
+      "name": "Smart City Platform",
+      "description": "BEL Smart City Platform (EQUINOX) is indigenously developed Smart City IoT Platform. Platform provides integrated city operations with Command and Control, I!",
+      "image": "images/smart-city-bel-768x480.jpg",
+      "status": "Completed",
+      "links": "https://bel-india.in/software/software-products/smart-city-platform-product/"
+    },
+    {
+      "id": "9",
+      "name": "Enterprise Resorce Planning (ERP) solutions",
+      "description": "ERP solution from BEL is designed to manage and integrate the functions of core business processes like finance, HR, supply chain and inventory managem",
+      "image": "images/Enterprise-resource-planning-erp-solutions.jpg",
+      "status": "Completed",
+      "links": "https://bel-india.in/software/software-products/blockchain-based-solutions-product/"
+    },
+    {
+      "id": 10,
+      "name": "AI Enabled Fake News Detector",
+      "description": "Social media for news consumption is a double-edged sword. Traditional Social media analytics applications existing so far, are considering the raw information (Tweets / posts / news) from various social media platforms ",
+      "image": "images/AI-Enabled-Fake-News-Detector-768x480.jpg",
+      "status": "Completed",
+      "links": "https://bel-india.in/software/software-products/ai-enabled-fake-news-detector-product/"
+    }
+  ]
+}
