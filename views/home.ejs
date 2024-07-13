@@ -1,1 +1,75 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Manager</title>
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-container">
+        <img src="/images/logo2.jpg" alt="Logo" />
+        <a href="/"><h4>CRL Project Manager</h4></a>
+      </div>
+      <a class="active" href="/">Home</a>
+      <a href="/projects">Projects</a>
+      <a href='uploadProject'">
+        Create New Project
+    </a>
+      <a href="#about-section">About CRL</a>
+      <a href="#vision-section">Our Vision</a>
+     
+      <div class="sidebar-bottom">
+        <a href="contact">Contact us</a>
+        <p>&copy CRL-GAD</p>
+      </div>
+    </div>
+    <div class="content-container bg-image">
+      <div class="content">
+        <div class="title">
+          <h1>Welcome to the CRL Project Manager</h1>
+          <p>Your project management tool to keep everything on track.</p>
+        </div>
+        <div class="button-container">
+          <button>Home</button>
+          <button onclick="location.href='projects'">Projects</button>
+          <button onclick="location.href='uploadProject'">Create New Project</button>
+          <button onclick="location.href='contact'">Contact Us</button>
+        </div>
+        <div class="image-container">
+          <img src="/images/crl.png" alt="CRL Logo" />
+        </div>
+        <div class="about-crl" id="about-section">
+          <br />
+          <h4>About CRL (GAD)</h4>
+          <p>
+            The lush green campus of Central Research Laboratory, Ghaziabad
+            (CRL-GAD) is located in Ghaziabad, Uttar Pradesh. It has been
+            established with the following objectives:
+          </p>
+          <ul>
+            <li>
+              To generate new ideas and concepts that can result in new or
+              improved products.
+            </li>
+            <li>
+              Examine emerging concepts and technologies and adapt them for new
+              products and systems.
+            </li>
+          </ul>
+        </div>
+        <div class="vision-container" id="vision-section">
+          <h2><i>Our Vision</i></h2>
+          <p>
+            Our vision is to empower teams to achieve their highest potential
+            through efficient project management tools that streamline
+            processes, foster collaboration, and drive innovation.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

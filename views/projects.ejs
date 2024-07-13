@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="/css/project.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-container">
+        <img src="/images/logo2.jpg" alt="Logo" />
+        <a href="/"><h4>CRL Project Manager</h4></a>
+      </div>
+      <a href="/">Home</a>
+      <a class="active" href="/projects">Projects</a>
+      <a href='uploadProject'">
+        Create New Project
+    </a>
+      <a href="home/#about-section">About CRL</a>
+      <a href="home/#vision-section">Our Vision</a>
+      <div class="sidebar-bottom">
+        <a href="">Contact us</a>
+        <p>&copy; CRL-GAD</p>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="button-container">
+        <button onclick="location.href='home'">Home</button>
+        <button onclick="location.href='projects'">Projects</button>
+        <button onclick="location.href='uploadProject'">Create New Project</button>
+        <button onclick="location.href='contact'">Contact Us</button>
+        <button onclick="location.href='newProject'">View Upcoming project</button>
+      </div>
+      <div id="projects-container" class="project-cards">
+      <!-- Project cards will be dynamically generated here -->
+      </div>
+    </div>
+    <script src="/js/project.js"></script>
+  </body>
+</html>

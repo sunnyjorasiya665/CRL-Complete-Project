@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/upload2.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Upload Project</title>
+  </head>
+  <body>
+    <!-- Sidebar section -->
+    <div class="sidebar">
+      <div class="logo-container">
+        <img src="/images/logo2.jpg" alt="Logo" />
+        <a href="/"><h4>CRL Project Manager</h4></a>
+      </div>
+      <a href="/">Home</a>
+      <a href="/projects">Projects</a>
+      <a class="active" href="/uploadProject">Create New Project</a>
+      <a href="#about-section">About CRL</a>
+      <a href="#vision-section">Our Vision</a>
+      <div class="sidebar-bottom">
+        <a href="">Contact us</a>
+        <p>&copy; CRL-GAD</p>
+      </div>
+    </div>
+
+    <!-- Content section -->
+    <div class="content-container">
+      <h1>Upcoming/New Projects</h1>
+      <div class="button-container">
+        <a class="btn" href="/uploadProject">Add new Project</a>
+      </div>
+      <div class="project-cards">
+        <% projects.forEach(project => { %>
+        <div class="project-card">
+          <% if (project.image) { %>
+          <img src="<%= project.image %>" alt="Project Image" />
+          <% } %>
+          <h4>Project Name: <%= project.name %></h4>
+          <p class="card-text">Description: <%= project.description %></p>
+          <p><strong>Estimate Completion Time:</strong> <%= project.time %></p>
+          <p><strong>Estimate Completion Date:</strong> <%= project.date %></p>
+          <button class="btn" onclick="location.href= "uploadProject"">Read More</button>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

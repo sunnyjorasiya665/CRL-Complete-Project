@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/upload.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Upload Project</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-container">
+        <img src="/images/logo2.jpg" alt="Logo" />
+        <a href="/"><h4>CRL Project Manager</h4></a>
+      </div>
+      <a href="/">Home</a>
+      <a href="/projects">Projects</a>
+      <a class="active" href='uploadProject'">
+        Create New Project
+    </a>
+      <a href="/#about-section">About CRL</a>
+      <a href="/#vision-section">Our Vision</a>
+      <div class="sidebar-bottom">
+        <a href="">Contact us</a>
+        <p>&copy CRL-GAD</p>
+      </div>
+    </div>
+    <div class="content-container bg-image">
+      <div class="content">
+        <h1>Enter Project Details</h1>
+        <form action="/submit" method="POST" enctype="multipart/form-data">
+          <label for="name">Project Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="description">Project Description:</label>
+          <textarea id="description" name="description" required></textarea
+          ><br /><br />
+
+          <label for="time">Estimated Completeion Time:</label>
+          <input type="time" id="time" name="time" required /><br /><br />
+
+          <label for="date">Estimated Completion Date:</label>
+          <input type="date" id="date" name="date" required /><br /><br />
+
+          <label for="image">Upload Image:</label>
+          <input type="file" id="image" name="image" /><br /><br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <a href="/newProject">view new project...</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
