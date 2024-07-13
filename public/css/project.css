@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    rgb(194, 110, 110),
+    rgb(201, 201, 87),
+    rgb(42, 139, 132)
+  );
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border: 10px;
+  border-radius: 1%;
+}
+
+.sidebar h4 {
+  font-weight: bolder;
+  color: #c71717;
+  padding: 3%;
+  display: block;
+}
+.sidebar h4:hover {
+  color: #68ab2e;
+}
+
+.sidebar a {
+  display: block;
+  color: #49005d;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar .active {
+  background-color: bisque;
+  color: rgb(188, 112, 19);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: bisque;
+  color: #987c70;
+}
+
+.sidebar-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.logo-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.content-container {
+  background-image: linear-gradient(
+    rgb(185, 166, 45),
+    rgb(94, 153, 133),
+    rgb(60, 43, 165),
+    rgb(107, 183, 164),
+    rgb(122, 94, 215)
+  );
+  margin-left: 20%;
+  padding: 16px;
+  overflow: auto;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 18rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+  height: 52px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.read-more {
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #6b9bcc;
+  color: white;
+}
+
+button:hover {
+  background-color: #4caf50;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
